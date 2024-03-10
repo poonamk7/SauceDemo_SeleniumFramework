@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Suite">
+	<listeners>
+		<listener class-name="listeners.TestListener"/>
+	</listeners>
+	<test thread-count="2" parallel="classes" name="SauceDemo Test">
+		<classes>
+			<class name="com.tests.AddAllItemsToCartTest" />
+			<class name="com.tests.EndToEndTest" />
+			<class name="com.tests.ErrorValidationOnCheckoutTest" />
+			<class name="com.tests.LoginForStandardUserTest" />
+			<class name="com.tests.LoginForLockedOutUserTest" />
+			<class name="com.tests.SortingOfProductsTest" />
+		</classes>
+	</test>
+</suite> 

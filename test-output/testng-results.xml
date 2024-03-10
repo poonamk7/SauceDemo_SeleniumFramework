@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-10T21:04:54 IST" name="Suite" finished-at="2024-03-10T21:05:38 IST" duration-ms="44631">
+    <groups>
+    </groups>
+    <test started-at="2024-03-10T21:04:54 IST" name="Test" finished-at="2024-03-10T21:05:38 IST" duration-ms="44631">
+      <class name="com.tests.LoginForStandardUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tests.LoginForStandardUserTest@3c41ed1d]" started-at="2024-03-10T21:05:15 IST" name="setUp" finished-at="2024-03-10T21:05:26 IST" duration-ms="10370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.LoginForStandardUserTest.loginForStandardUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginForStandardUserTest()[pri:0, instance:com.tests.LoginForStandardUserTest@3c41ed1d]" started-at="2024-03-10T21:05:26 IST" name="loginForStandardUserTest" description="To validate login functionality for standard user" finished-at="2024-03-10T21:05:29 IST" duration-ms="3702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForStandardUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginForStandardUserTest@3c41ed1d]" started-at="2024-03-10T21:05:29 IST" name="tearDown" finished-at="2024-03-10T21:05:30 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginForStandardUserTest -->
+      <class name="com.tests.ErrorValidationOnCheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tests.ErrorValidationOnCheckoutTest@34e9fd99]" started-at="2024-03-10T21:05:05 IST" name="setUp" finished-at="2024-03-10T21:05:12 IST" duration-ms="7140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.ErrorValidationOnCheckoutTest.errorValidationOnCheckoutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="errorValidationOnCheckoutTest()[pri:0, instance:com.tests.ErrorValidationOnCheckoutTest@34e9fd99]" started-at="2024-03-10T21:05:12 IST" name="errorValidationOnCheckoutTest" description="Verify Error message on Checkout: Your Information screen" finished-at="2024-03-10T21:05:15 IST" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationOnCheckoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ErrorValidationOnCheckoutTest@34e9fd99]" started-at="2024-03-10T21:05:15 IST" name="tearDown" finished-at="2024-03-10T21:05:15 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.ErrorValidationOnCheckoutTest -->
+      <class name="com.tests.AddAllItemsToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tests.AddAllItemsToCartTest@4c583ecf]" started-at="2024-03-10T21:04:54 IST" name="setUp" finished-at="2024-03-10T21:05:01 IST" duration-ms="6737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.AddAllItemsToCartTest.addAllItemsToCartTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addAllItemsToCartTest()[pri:0, instance:com.tests.AddAllItemsToCartTest@4c583ecf]" started-at="2024-03-10T21:05:01 IST" name="addAllItemsToCartTest" description="To check whether user is able to add all products to the cart" finished-at="2024-03-10T21:05:04 IST" duration-ms="3290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAllItemsToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AddAllItemsToCartTest@4c583ecf]" started-at="2024-03-10T21:05:04 IST" name="tearDown" finished-at="2024-03-10T21:05:05 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.AddAllItemsToCartTest -->
+      <class name="com.tests.EndToEndTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tests.EndToEndTest@45752059]" started-at="2024-03-10T21:04:54 IST" name="setUp" finished-at="2024-03-10T21:05:04 IST" duration-ms="10566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.EndToEndTest.endToEndValidationTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="endToEndValidationTest()[pri:0, instance:com.tests.EndToEndTest@45752059]" started-at="2024-03-10T21:05:04 IST" name="endToEndValidationTest" description="Validate user is able to select a specific item and complete purchase via end to end flow" finished-at="2024-03-10T21:05:10 IST" duration-ms="5200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.EndToEndTest@45752059]" started-at="2024-03-10T21:05:10 IST" name="tearDown" finished-at="2024-03-10T21:05:15 IST" duration-ms="5606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.EndToEndTest -->
+      <class name="com.tests.LoginForLockedOutUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tests.LoginForLockedOutUserTest@54d9d12d]" started-at="2024-03-10T21:05:15 IST" name="setUp" finished-at="2024-03-10T21:05:27 IST" duration-ms="12012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.LoginForLockedOutUserTest.loginForLockedOutUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginForLockedOutUserTest()[pri:0, instance:com.tests.LoginForLockedOutUserTest@54d9d12d]" started-at="2024-03-10T21:05:27 IST" name="loginForLockedOutUserTest" description="To validate login functionality for locked out user" finished-at="2024-03-10T21:05:28 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForLockedOutUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginForLockedOutUserTest@54d9d12d]" started-at="2024-03-10T21:05:28 IST" name="tearDown" finished-at="2024-03-10T21:05:30 IST" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginForLockedOutUserTest -->
+      <class name="com.tests.SortingOfProductsTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tests.SortingOfProductsTest@38425407]" started-at="2024-03-10T21:05:30 IST" name="setUp" finished-at="2024-03-10T21:05:37 IST" duration-ms="6767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.SortingOfProductsTest.sortingOfProductsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortingOfProductsTest()[pri:0, instance:com.tests.SortingOfProductsTest@38425407]" started-at="2024-03-10T21:05:37 IST" name="sortingOfProductsTest" description="Verify sorting of products based on different sort dropdown options." finished-at="2024-03-10T21:05:38 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingOfProductsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SortingOfProductsTest@38425407]" started-at="2024-03-10T21:05:38 IST" name="tearDown" finished-at="2024-03-10T21:05:38 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.SortingOfProductsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+com\tests\LoginForPerformanceGlitchUser.class
+com\tests\BaseTest.class
+com\tests\EndToEndTest.class
+com\tests\LoginForProblemUserTest.class
+com\tests\LoginForStandardUserTest.class
+com\tests\AddAllItemsToCartTest.class
+com\tests\LoginForLockedOutUserTest.class
+com\tests\SortingOfProductsTest.class
+com\tests\LoginForVisualUserTest.class
+com\tests\LoginForErrorUserTest.class
+com\tests\ErrorValidationOnCheckoutTest.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemoSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="SauceDemoTest(failed)">
+    <classes>
+      <class name="com.tests.ErrorValidationOnCheckoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="errorValidationOnCheckoutTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tests.ErrorValidationOnCheckoutTest -->
+      <class name="com.tests.EndToEndTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endToEndValidationTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tests.EndToEndTest -->
+    </classes>
+  </test> <!-- SauceDemoTest(failed) -->
+</suite> <!-- Failed suite [SauceDemoSuite] -->
