@@ -6,8 +6,8 @@ Through this framework, we were able to achieve reliable and robust UI test auto
 Page Objects are created to effectively interact with Web elements and synchronization is achieved using combination of implicit and explicit waits.
 A utility is created to read data from an excel sheet based on Test case name which increases usability of this framework.
 The test scripts have been executed successfully in following diferent ways:
-Using Maven commands from CLI
-Using TestNG suite xml file 
-Using pom.xml file
-Using run.bat file
-From Jenkins as a Maven project (using pom.xml file).
+1. Using Maven commands from CLI
+2. Using TestNG suite xml file 
+3. Using pom.xml file
+4. Using run.bat file
+5. From Jenkins as a Maven project (using pom.xml file).
